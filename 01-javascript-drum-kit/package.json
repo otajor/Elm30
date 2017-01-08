@@ -1,0 +1,23 @@
+{
+  "name": "elm30",
+  "version": "1.0.0",
+  "description": "Doing [wesbos' Javascript30](https://github.com/wesbos/JavaScript30) course, but in Elm.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "chokidar '**/*.elm' -c 'elm make Main.elm --output main.js' --initial"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otajor/Elm30.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otajor/Elm30/issues"
+  },
+  "homepage": "https://github.com/otajor/Elm30#readme",
+  "dependencies": {
+    "chokidar-cli": "^1.2.0"
+  }
+}
